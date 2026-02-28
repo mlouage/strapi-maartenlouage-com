@@ -1,8 +1,8 @@
 {
-  "name": "my-app-name",
-  "version": "0.1.0",
+  "name": "maartenlouage-com",
+  "version": "1.0.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "A Strapi application for maartenlouage.com",
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
@@ -25,10 +25,11 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=18.0.0 <=24.x.x",
+    "npm": ">=11.0.0"
   },
   "volta": {
-    "node": "24.14.0"
+    "node": "24.14.0",
+    "npm": "11.11.0"
   }
 }
