@@ -22,6 +22,13 @@ const populate = {
       },
     }
   },
+  projects: {
+    populate: {
+      'categories': {
+        fields: ['name', 'slug']
+      },
+    }
+  },
 };
 
 module.exports = (config, { strapi }) => {
