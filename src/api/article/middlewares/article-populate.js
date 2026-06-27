@@ -11,7 +11,11 @@ const populate = {
     fields: '*'
   },
   author: {
-    fields: '*'
+    populate: {
+      'avatar': {
+        fields: ['alternativeText', 'formats'],
+      }
+    }
   },
   category: {
     fields: '*'
